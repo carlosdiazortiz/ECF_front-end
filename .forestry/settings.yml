@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: src/gallery
-  label: Gallery
+  label: category
   create: all
   match: "**/*"
 upload_dir: uploads
