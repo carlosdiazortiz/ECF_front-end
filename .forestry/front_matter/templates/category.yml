@@ -12,3 +12,5 @@ fields:
   config:
     maxSize: 64
   label: Photo
+pages:
+- src/gallery/mariage.md
