@@ -1,4 +1,14 @@
 ---
 label: Gallery
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: photo
