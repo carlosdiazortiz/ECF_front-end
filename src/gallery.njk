@@ -5,48 +5,16 @@ layout: layout.njk
 <div class="background-header-color"></div>
 <h1>Gallerie</h1>
 <div class="gallery">
+{%- for category in collections.category -%}
   <div class="category">
-    <h2>Mariage</h2>
+    <a href="{{ category.url }}">
+    <h2>{{ category.data.title }}</h2>
     <div class="photos">
-      <img src="../family.jpg" alt="">
+      <img src="{{ category.data.photo }}" alt="">
     </div>
-  </div>
-  <div class="category">
-    <h2>Mariage</h2>
-    <div class="photos">
-      <img src="../family.jpg" alt="">
-    </div>
-  </div> 
-  <div class="category">
-    <h2>Mariage</h2>
-    <div class="photos">
-      <img src="../family.jpg" alt="">
-    </div>
-  </div>
-  <div class="category">
-    <h2>Mariage</h2>
-    <div class="photos">
-      <img src="../family.jpg" alt="">
-    </div>
-  </div>
-  <div class="category">
-    <h2>Mariage</h2>
-    <div class="photos">
-      <img src="../family.jpg" alt="">
-    </div>
-  </div>
-  <div class="category">
-    <h2>Mariage</h2>
-    <div class="photos">
-      <img src="../family.jpg" alt="">
-    </div>
-  </div>
-  <div class="category">
-    <h2>Mariage</h2>
-    <div class="photos">
-      <img src="../family.jpg" alt="">
-    </div>
-  </div>          
+    </a>
+  </div>  
+{%- endfor -%}        
 </div>
   
 
