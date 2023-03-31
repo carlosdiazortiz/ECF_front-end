@@ -9,7 +9,7 @@ sections:
   label: category
   create: all
   match: "**/*"
-upload_dir: uploads
+upload_dir: src/uploads
 public_path: src/uploads
 front_matter_path: ''
 use_front_matter_path: false
