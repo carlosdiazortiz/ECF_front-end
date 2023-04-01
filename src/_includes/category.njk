@@ -1,24 +1,18 @@
 ---
 layout: "layout.njk"
 ---
+{% include "logo.njk" %}
+<div class="background-header-color"></div>
 
-<div class="gallery">
+<h1><a href="../index.html">Gallerie</a></h1>
 
-  <div class="category">
-    
-    <h2>{{ title }}</h2>
-    <div class="photos">
-     {%- for photos in categoryphotos -%}
-  <img src="{{ photos }}" alt="">
-  {%- endfor -%}
-  
-
-      
-      
+<div class="">
+  <div class="categoria">
+    <h3>{{ title }}</h3>
+    <div class="category-images">
+      {%- for photos in categoryphotos -%}
+      <img class="imagen" src="{{ photos }}" alt="">
+      {%- endfor -%}
     </div>
-    </a>
   </div> 
-
-  {{content | safe}} 
-       
 </div>

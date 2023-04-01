@@ -112,7 +112,6 @@ h1 {
     top: 5%;
     width: 50%;
     padding-right: 0;
-    
   } 
 }
 
@@ -165,7 +164,7 @@ h1 {
 
 a:link, a:visited {
   text-decoration: none;
-  color: white;
+  color: rgb(187, 174, 174);
 }
 
 footer {
@@ -179,16 +178,15 @@ footer {
 }
 
 .category {
-  
   display: inline-block;
   margin-right: 5vw;
-
 }
 
 .photos {
   height: 25vh;
   display: flex;
   justify-content: center;
+  background-color: aquamarine;
 }
 
 h2 {
@@ -196,6 +194,30 @@ h2 {
   font-size: calc(0.7rem + 1.5vw);
   color: rgb(187, 174, 174);
 }
+
+.categoria {
+  margin-top: 4vh; 
+  margin-left: 8vw;
+}
+
+.category-images {
+  display: inline-block;
+  margin-right: 5vw;
+}
+
+.imagen {
+  height: 25vh;
+  background-color: aquamarine;
+  margin-right: 5vw;
+  margin-bottom: 2vh;
+}
+
+h3 {
+  font-size: calc(0.4rem + 1.5vw);
+  color: rgb(187, 174, 174);
+  margin-top: 5vh;
+}
+
 
 
 
