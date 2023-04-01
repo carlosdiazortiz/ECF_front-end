@@ -12,10 +12,10 @@ fields:
   config:
     maxSize: 64
   label: Photo
-- name: category-photos
+- name: categoryphotos
   type: image_gallery
   config: {}
-  label: category-photos
+  label: categoryphotos
 pages:
 - src/gallery/anniversaire.md
 - src/gallery/mariage.md
