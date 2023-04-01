@@ -10,5 +10,6 @@ categoryphotos:
 - src/uploads/img_20190802_1145451.jpg
 - "/uploads/img_20200711_151646.jpg"
 - "/uploads/img_20191217_172445.jpg"
+categoryphotostitle: Photos d'anniversaire
 
 ---
