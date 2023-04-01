@@ -1,4 +1,4 @@
 {
   "tags": "category",
-  "layout": "layout.njk"
+  "layout": "category.njk"
 }

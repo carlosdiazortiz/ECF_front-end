@@ -1,0 +1,24 @@
+---
+layout: "layout.njk"
+---
+
+<div class="gallery">
+
+  <div class="category">
+    
+    <h2>{{ title }}</h2>
+    <div class="photos">
+     {%- for photos in categoryphotos -%}
+  <img src="{{ photos }}" alt="">
+  {%- endfor -%}
+  
+
+      
+      
+    </div>
+    </a>
+  </div> 
+
+  {{content | safe}} 
+       
+</div>
