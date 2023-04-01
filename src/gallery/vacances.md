@@ -5,5 +5,6 @@ categoryphotos:
 - "/uploads/img_20200711_151646.jpg"
 - "/uploads/img_20191118_123437.jpg"
 - "/uploads/img_20200109_164543.jpg"
+categoryphotostitle: Photos de vacances
 
 ---
