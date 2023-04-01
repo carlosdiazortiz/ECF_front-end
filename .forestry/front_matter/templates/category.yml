@@ -16,6 +16,11 @@ fields:
   type: image_gallery
   config: {}
   label: categoryphotos
+- name: categoryphotostitle
+  type: text
+  config:
+    required: false
+  label: Category photos title
 pages:
 - src/gallery/anniversaire.md
 - src/gallery/mariage.md
