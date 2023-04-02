@@ -1,3 +1,24 @@
 ---
 layout: "layout.njk"
 ---
+{% include "logo.njk" %}
+<div class="background-header-color"></div>
+<h1>Tarifs et prestations</h1>
+
+{% for prices in collections.prices_and_services %}
+
+{% for items in prices.data.prices_and_services | reverse %}
+<div class="category">
+    
+    <h3>{{items.service}}</h3>
+    <div class="photos">
+      {{items.description}}
+      {{items.price}}
+    </div>
+    
+  </div>  
+
+{%endfor%}
+
+{% endfor %}
+
