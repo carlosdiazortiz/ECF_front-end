@@ -26,3 +26,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- src/prices/prices.md
