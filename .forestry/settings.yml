@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: src/prices
+  label: Tarifs et prestations
+  create: all
+  match: "**/*"
+  exclude: ".json"
+- type: directory
   path: src/gallery
   label: category
   create: all
