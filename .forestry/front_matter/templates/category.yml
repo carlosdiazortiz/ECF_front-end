@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Title
+  label: Titre
 - name: photo
   type: file
   config:
@@ -15,12 +15,12 @@ fields:
 - name: categoryphotos
   type: image_gallery
   config: {}
-  label: categoryphotos
+  label: Photos de la catégorie
 - name: categoryphotostitle
   type: text
   config:
     required: false
-  label: Category photos title
+  label: Titre pour les photos de la catégorie
 pages:
 - src/gallery/anniversaire.md
 - src/gallery/mariage.md
