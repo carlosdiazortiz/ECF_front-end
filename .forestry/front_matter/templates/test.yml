@@ -31,5 +31,3 @@ fields:
       max: 
       step: 
   label: test
-pages:
-- src/test/test.md
