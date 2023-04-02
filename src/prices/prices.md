@@ -1,5 +1,8 @@
 ---
 prices_and_services:
+- service: Mon bébé
+  price: 100
+  description: Photo d'enfant jusqu'à 3 ans (photo à domicile).
 - service: Il était une fois
   price: 160
   description: Photo de grossesse (à votre domicile, en extérieur ou en studio).
