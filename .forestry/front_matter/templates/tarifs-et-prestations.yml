@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Prestation
+  label: title
 - name: description
   type: textarea
   default: ''
