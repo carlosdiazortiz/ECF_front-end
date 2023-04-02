@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/prices
+  path: src/prices_and_services
   label: Tarifs et prestations
   create: all
   match: "**/*"
