@@ -23,5 +23,6 @@ fields:
   label: Titre pour les photos de la catégorie
 pages:
 - src/gallery/anniversaire.md
+- src/gallery/grossesse.md
 - src/gallery/mariage.md
 - src/gallery/vacances.md
