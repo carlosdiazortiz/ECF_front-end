@@ -1,4 +1,31 @@
 ---
 label: Tarifs et prestations
 hide_body: true
-fields: []
+fields:
+- name: service
+  type: field_group_list
+  fields:
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: price
+    type: number
+    label: Tarif
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Prestation
