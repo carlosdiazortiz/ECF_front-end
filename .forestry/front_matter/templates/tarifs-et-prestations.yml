@@ -34,3 +34,5 @@ fields:
     max: 
     labelField: 
   label: Tarifs et prestations
+pages:
+- src/prices/prices.md
