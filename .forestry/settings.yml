@@ -9,7 +9,6 @@ sections:
   label: Tarifs et prestations
   create: all
   match: "**/*"
-  exclude: ".json"
 - type: directory
   path: src/gallery
   label: Galerie
