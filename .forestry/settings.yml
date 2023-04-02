@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: src/prices
   label: Tarifs et prestations
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: src/gallery
