@@ -29,6 +29,11 @@ fields:
       schema:
         format: markdown
     label: Description
+  - name: photo
+    type: file
+    config:
+      maxSize: 64
+    label: Photo
   config:
     min: 
     max: 
