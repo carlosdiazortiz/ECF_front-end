@@ -17,12 +17,7 @@ fields:
       format: markdown
   label: Description
 - name: price
-  type: number
-  label: Tarif
-  description: ''
-  default: 0
-  required: true
+  type: text
   config:
-    min: 
-    max: 
-    step: 
+    required: false
+  label: Tarif
