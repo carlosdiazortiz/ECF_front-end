@@ -21,15 +21,14 @@ fields:
       max: 
       step: 
   - name: description
-    type: number
-    label: Description
-    description: ''
-    default: 0
-    required: true
+    type: textarea
+    default: ''
     config:
-      min: 
-      max: 
-      step: 
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
   config:
     min: 
     max: 
