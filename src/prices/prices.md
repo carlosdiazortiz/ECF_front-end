@@ -1,5 +1,8 @@
 ---
 prices_and_services:
+- service: Il était une fois
+  price: 160
+  description: Photo de grossesse (à votre domicile, en extérieur ou en studio).
 - service: Famille
   price: 220
   description: Pour la famille ou les amis jusqu'à 4 personnes, en extérieur ou en
