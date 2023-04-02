@@ -33,13 +33,33 @@
 </div>    
 <div class="background-header-color"></div>
 
-<h1><a href="../index.html">Gallerie</a></h1>
+<div class="contact">
+<h1>Formulaire de contact</h1>
 
-<div class="">
-  <div class="categoria">
-    <h3>Photos de vacances</h3>
-    <div class="category-images"><img class="imagen" src="/uploads/img_20200711_151646.jpg" alt=""><img class="imagen" src="/uploads/img_20191118_123437.jpg" alt=""><img class="imagen" src="/uploads/img_20200109_164543.jpg" alt=""></div>
-  </div> 
+<form method="POST" action="">
+  <label for="name">Nom et prénom</label>
+  <input type="text" id="name" name="name">
+
+  <label for="email">E-mail</label>
+  <input type="email" id="email" name="email">
+
+  <label for="phone">Téléphone</label>
+  <input type="tel" id="phone" name="phone">
+
+  <label for="event">Type d'événement</label>
+  <select name="event" id="event">
+    <option value="">Sélectionnez </option>
+    <option value="event1">Mariage</option>
+    <option value="event2">Anniversaire</option>
+    <option value="event3">Naissance</option>
+    <option value="event4">Autre</option>
+  </select>
+
+  <label for="message">Message</label>
+  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+  <input type="submit" value="Envoyer">
+  
+</form>
 </div>
   <footer>
   <p>Copyright | Tous droits réservés</p>

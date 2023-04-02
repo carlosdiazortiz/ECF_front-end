@@ -186,7 +186,6 @@ footer {
   height: 25vh;
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
 }
 
 h2 {
@@ -207,7 +206,6 @@ h2 {
 
 .imagen {
   height: 25vh;
-  background-color: aquamarine;
   margin-right: 5vw;
   margin-bottom: 2vh;
 }
@@ -218,7 +216,29 @@ h3 {
   margin-top: 5vh;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+input, select, textarea {
+  margin-bottom: 2vh;
+}
+
+label {
+  color: white;
+}
+
+button {
+  width: 25vw;
+}
 
 
 
